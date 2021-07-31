@@ -1,11 +1,22 @@
 <template>
   <Card card_title="About Me">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda explicabo inventore ipsam porro rem?
-      Assumenda atque autem blanditiis magnam maxime!</p>
+    <template v-slot:default>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda explicabo inventore ipsam porro rem?
+        Assumenda atque autem blanditiis magnam maxime!</p>
+    </template>
+    <template v-slot:card-footer>
+      <a>Read more</a>
+    </template>
   </Card>
   <Card card_title="Phone">
-    <img src="https://v3.vuejs.org/logo.png" alt="">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, hic.</p>
+    <template v-slot:default>
+      <img src="https://v3.vuejs.org/logo.png" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, hic.</p>
+    </template>
+    <template v-slot:card-footer>
+      <button>Add to Cart</button>
+      <button>Buy Now</button>
+    </template>
   </Card>
   <Card card_title="Services">
     <ul>
