@@ -14,6 +14,7 @@
       <li>Mobile App</li>
     </ul>
   </Card>
+  <Card card_title="Default"/>
 </template>
 
 <script>

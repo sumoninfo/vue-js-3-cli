@@ -4,7 +4,9 @@
       {{ card_title }}
     </div>
     <div class="card-body">
-      <slot/>
+      <slot>
+        Default data
+      </slot>
     </div>
   </div>
 </template>
