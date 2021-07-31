@@ -1,4 +1,6 @@
 <template>
+  <Article/>
+  <hr>
   <Card card_title="About Me">
     <template v-slot:default>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda explicabo inventore ipsam porro rem?
@@ -13,16 +15,18 @@
       <img src="https://v3.vuejs.org/logo.png" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, hic.</p>
     </template>
-
   </Card>
+
 </template>
 
 <script>
-import Card from "./components/Card";
+import Card    from "./components/Card";
+import Article from "@/components/Article";
 
 export default {
   name      : 'App',
   components: {
+    Article,
     Card,
   }
 }
