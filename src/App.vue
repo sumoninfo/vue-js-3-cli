@@ -4,7 +4,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda explicabo inventore ipsam porro rem?
         Assumenda atque autem blanditiis magnam maxime!</p>
     </template>
-    <template v-slot:card-footer>
+    <template v-slot:footer>
       <a>Read more</a>
     </template>
   </Card>
@@ -13,19 +13,8 @@
       <img src="https://v3.vuejs.org/logo.png" alt="">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, hic.</p>
     </template>
-    <template v-slot:card-footer>
-      <button>Add to Cart</button>
-      <button>Buy Now</button>
-    </template>
+
   </Card>
-  <Card card_title="Services">
-    <ul>
-      <li>Web Development</li>
-      <li>Software Development</li>
-      <li>Mobile App</li>
-    </ul>
-  </Card>
-  <Card card_title="Default"/>
 </template>
 
 <script>

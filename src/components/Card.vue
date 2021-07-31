@@ -8,10 +8,8 @@
         Default data
       </slot>
     </div>
-    <div class="card-footer">
-      <slot name="card-footer">
-        Default footer
-      </slot>
+    <div class="card-footer" v-if="$slots.footer">
+      <slot name="footer"></slot>
     </div>
   </div>
 </template>
