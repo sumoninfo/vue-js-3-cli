@@ -1,4 +1,5 @@
 <template>
+  <Count/>
   <Article/>
   <hr>
   <Card card_title="About Me">
@@ -22,10 +23,12 @@
 <script>
 import Card    from "./components/Card";
 import Article from "@/components/Article";
+import Count   from "@/components/Count";
 
 export default {
   name      : 'App',
   components: {
+    Count,
     Article,
     Card,
   }
